@@ -1,72 +1,68 @@
 .section4 {
-  background: url(../images/section4-bg.png);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  
+  	background: url(../images/section4-bg.png);
+  	background-size: cover;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	width: 100vw;
 }
 
 .s4-wrapper {
-  display: flex;
-  width: 80%;
-  flex-direction: column;
+  	display: flex;
+  	width: 80%;
+  	flex-direction: column;
 }
 
 .s4-wrapper h1 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: $basic-white;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 40px;
+  	font-size: 2rem;
+  	text-transform: uppercase;
+  	color: $basic-white;
+  	text-align: center;
+  	margin-bottom: 50px;
+  	margin-top: 40px;
 }
 
 .s4-input-area {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
 }
 
 input[type=text] {
-  background-color: transparent;
-  width: 25%;
-  padding: 12px;
-  border: 1px solid $basic-white;
-  resize: vertical;
-  color: $basic-white;
+  	background-color: transparent;
+  	width: 25%;
+  	padding: 12px;
+  	border: 1px solid $basic-white;
+  	resize: vertical;
+ 	color: $basic-white;
 }
 
 .s4-message-box {
-  width: 100%;
-  height: 100px;
-  margin-top: 30px;
-  background-color: transparent;
-  border: 1px solid $basic-white;
-  flex-direction: column;
-  color: $basic-white;
+  	width: 100%;
+  	height: 100px;
+  	margin-top: 30px;
+  	background-color: transparent;
+  	border: 1px solid $basic-white;
+  	flex-direction: column;
+  	color: $basic-white;
 }
 
 .s4-button {
 @include basicButton(50%, 64px, $basic-blue, $basic-white);
-  display: block;
-  margin: 30px auto;
-  border: none;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  text-transform: uppercase;
+  	display: block;
+  	margin: 30px auto;
+  	border: none;
+  	text-align: center;
+  	font-size: 16px;
+  	cursor: pointer;
+  	text-transform: uppercase;
 }
 
-.s4-button {
-	
-}
 #s4-output-text {
-  color: $basic-white;
-  text-transform: uppercase;
-  padding: 10px;
-  margin-bottom: 100px;
-  margin-top:  70px;
-  line-height: 1.6;
+  	color: $basic-white;
+  	text-transform: uppercase;
+  	padding: 10px;
+  	margin-bottom: 100px;
+  	margin-top:  70px;
+  	line-height: 1.6;
 }
