@@ -1,0 +1,6 @@
+@mixin basicButton($width, $height, $background, $color){
+width: $width;
+height: $height;
+background-color: $background;
+color: $color;
+}

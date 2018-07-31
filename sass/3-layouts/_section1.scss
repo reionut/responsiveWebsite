@@ -1,0 +1,83 @@
+/* === Section1 styles === */
+
+.s1-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.s1-container img {
+  width: 100%;
+  height: auto;
+}
+
+.s1-wrapper1 {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  background-color: #222222;
+}
+
+.s1-wrapper1 div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.s1-wrapper2 div {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.s1-wrapper1 h2 {
+  padding: 15px;
+  color: $basic-white;
+  font-size: 2rem;
+}
+
+.s1-wrapper1 p {
+  color: $basic-white;
+  font-size: 1rem;
+  padding: 15px;
+}
+
+.s1-wrapper2 {
+  display: flex;
+  background-color: #f3f3f3;
+  align-items: center;
+  width: 80%;
+	color: #000000;
+}
+
+.s1-wrapper2 h2 {
+  padding: 15px;
+  font-size: 2rem;
+}
+
+.s1-wrapper2 p {
+  font-size: 1rem;
+  padding: 15px;
+}
+
+/* === Media Queries - Section1 - === */
+
+@media screen and (max-width: 768px) {
+  .s1-wrapper1 {
+    flex-direction: column;
+ 
+}
+  .s1-wrapper1 div{
+     width: 100%;
+}
+  
+  .s1-wrapper2 {
+    flex-direction: column;
+}
+  
+   .s1-wrapper2 div{
+     width: 100%;
+}
+}

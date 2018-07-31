@@ -1,0 +1,30 @@
+/* === Top NavBar social icons style === */
+
+.top-nav-social {
+ margin-right: 20px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  color: $basic-white;
+}
+
+.fa:hover {
+  opacity: 0.5;
+  background-color: $basic-white;
+  color: grey;
+  border-radius: 4px;
+}
+
+/* === Media queries - Social Icons - === */
+
+@media screen and (max-width: 768px){
+  
+.top-nav-social {
+  display:none;
+}
+}

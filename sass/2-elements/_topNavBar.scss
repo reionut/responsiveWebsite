@@ -1,0 +1,68 @@
+/* === Top NavBar style === */
+
+.top-navbar {
+  flex:1;
+  padding: 14px 16px;
+  position: relative;
+}
+
+.active {
+  border-bottom: 1px solid $basic-blue;
+}
+
+.top-navbar a {
+  display: block;
+  white-space: nowrap;
+  color: $basic-white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.top-navbar a:hover {
+  border-bottom: 1px solid $basic-white;
+}
+
+.top-navbar ul{
+  list-style: none;
+  white-space: nowrap;
+  text-align: center;
+  }
+
+.top-navbar li {
+  display: inline-block;
+}
+
+/* Media queries topNavBar */
+
+@media screen and (max-width: 768px){
+.top-navbar {
+  flex: 1;
+  order: 2;
+  flex-direction: column;
+  width: 100%;
+}
+
+.active {
+  background-color: grey;
+  opacity: 0.5;
+  color: black;
+}
+
+.top-navbar ul li {
+  display: block;
+  white-space: nowrap;
+  color: $basic-white;
+  
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.top-navbar a:hover {
+  background-color: $basic-white;
+  opacity: 0.5;
+  color: grey;
+}
+}

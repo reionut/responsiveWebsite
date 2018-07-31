@@ -1,0 +1,26 @@
+/* === Footer styles === */
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #606060;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  line-height: 4.5;
+}
+
+/* === Media queries - Footer - === */
+
+@media screen and (max-width: 768px) {
+  .footer-wrapper {
+    flex-direction: column;
+    line-height: 2;
+    text-align: center;
+  }
+}
