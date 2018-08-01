@@ -506,6 +506,7 @@ body {
   color: #000000;
 }
 
+/* === Media queries - section3 - ===*/
 @media screen and (max-width: 768px) {
   .s3-container {
     display: flex;
