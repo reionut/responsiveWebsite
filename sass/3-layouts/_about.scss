@@ -4,25 +4,25 @@
   	display: flex;
   	flex-direction: column;
   	background: $basic_blue;
-}
-
-.about-h{
+	
+	h1 {
   	background: url(../images/W.png) no-repeat center;
-  	font-size: 3vw;
   	padding: 100px;
  	text-transform: uppercase;
  	text-align: center;
+	font-size: 2rem;
 }
-
-.wrapper h3{
-  	text-transform: uppercase;
-  	text-align: center;
-  	padding: 15px;
 }
 
 .wrapper {
   	display: flex;
-  	flex-wrap: wrap;
+	flex-direction: row;
+  	
+	h3 {
+  		text-transform: uppercase;
+  		text-align: center;
+  		padding: 15px;
+}
 }
 
 .features3 img:hover {
@@ -36,10 +36,8 @@
 }
 
 .features1, .features2, .features3, .features4 {
-  	flex: 1;
   	padding: 20px;
   	text-align: center;
-	font-size: 16px;
 }
 
 /* === Media Queries - About - === */
@@ -51,7 +49,6 @@
     align-items: space-around;
   }
   .about-h{
-    font-size: 8vw;
     white-space: nowrap;
   }
 }

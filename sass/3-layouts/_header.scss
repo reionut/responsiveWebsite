@@ -8,7 +8,7 @@
   
 /* === Logo style === */
 
-.top-container {
+.header__container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .logo {
-	padding: 14px 16px;
+	margin: 20px;
 }
 
 /* === Header text style === */
@@ -63,18 +63,12 @@
     width: 100wv;
   }
   
-.top-container {
+.header__container {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5)
 }
-
-
-.logo {
-	flex: 1;
-	padding-left: 20px;
-  }
   
 .top-nav-social {
 	display:none;

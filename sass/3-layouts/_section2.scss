@@ -36,10 +36,8 @@
 	line-height: 1;
 }
 
-
 .slide-phones-button {
 	@include basicButton(100%, auto, $basic-blue, $basic-white);
-	border: none;
 	padding: 5px;
 	margin-top: 50px;
 }
@@ -48,6 +46,7 @@
   	margin: 70px;
 	max-width:100%;
 }
+
 .phoneImage {
 	width: 100%;
 	height: auto;
@@ -61,7 +60,6 @@
 		margin-top: 30px;
 }
 }
-
 
 @media screen and (max-width: 900px){
 	.s2-wrapper {

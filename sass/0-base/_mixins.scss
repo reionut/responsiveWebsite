@@ -1,6 +1,8 @@
 @mixin basicButton($width, $height, $background, $color){
-width: $width;
-height: $height;
-background-color: $background;
-color: $color;
+	width: $width;
+	height: $height;
+	background-color: $background;
+	color: $color;
+	border: none;
+	text-transform: uppercase;
 }

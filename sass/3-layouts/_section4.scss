@@ -51,11 +51,9 @@ input[type=text] {
 @include basicButton(50%, 64px, $basic-blue, $basic-white);
   	display: block;
   	margin: 30px auto;
-  	border: none;
   	text-align: center;
-  	font-size: 16px;
+  	font-size: 1rem;
   	cursor: pointer;
-  	text-transform: uppercase;
 }
 
 #s4-output-text {
