@@ -1,17 +1,17 @@
 .s3-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .s3-wrapper {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: auto;
-  overflow: visible;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	overflow: visible;
 	padding: 100px 0;
 }
 
@@ -27,10 +27,10 @@
 }
 
 .s3-img {
-  height: 414px;
-  width: 270px;
-  position: relative;
-  margin: 30px;
+	height: 414px;
+	width: 270px;
+	position: relative;
+	margin: 30px;
 }
 
 .s3-img1 {
@@ -38,29 +38,32 @@
 }
 
 .s3-img2 {
-  background: url(../images/ladysansa2.png);
+	background: url(../images/ladysansa2.png);
 }
 
 .s3-img3 {
-  background: url(../images/davidsmith.png);
+	background: url(../images/davidsmith.png);
 }
 
 .s3-img4 {
-  background: url(../images/ladysansa.png);
+	background: url(../images/ladysansa.png);
 }
 
 .s3-container h2 {
-  background-color: $basic-white;
-  text-align: center;
-  color: $basic-blue;
+	background-color: $basic-white;
+	text-align: center;
+	color: $basic-blue;
 	margin-top: 2px;
 }
 
 .s3-container h3 {
-  text-align: center;
-  margin-top: 4px;
+	text-align: center;
+	margin-top: 4px;
 	color: #000000;
 }
+
+/* === Media queries - section3 - ===*/
+
 @media screen and (max-width: 768px){
 	.s3-container{
 		display: flex;

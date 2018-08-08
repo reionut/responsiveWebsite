@@ -66,71 +66,6 @@ body {
   display: none !important;
 }
 
-/* === Top NavBar style === */
-.top-navbar {
-  flex: 1;
-  padding: 14px 16px;
-  position: relative;
-}
-
-.active {
-  border-bottom: 1px solid #11749e;
-}
-
-.top-navbar a {
-  display: block;
-  white-space: nowrap;
-  color: #ffffff;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.top-navbar a:hover {
-  border-bottom: 1px solid #ffffff;
-}
-
-.top-navbar ul {
-  list-style: none;
-  white-space: nowrap;
-  text-align: center;
-}
-
-.top-navbar li {
-  display: inline-block;
-}
-
-/* Media queries topNavBar */
-@media screen and (max-width: 768px) {
-  .top-navbar {
-    flex: 1;
-    order: 2;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .active {
-    background-color: grey;
-    opacity: 0.5;
-    color: black;
-  }
-
-  .top-navbar ul li {
-    display: block;
-    white-space: nowrap;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .top-navbar a:hover {
-    background-color: #ffffff;
-    opacity: 0.5;
-    color: grey;
-  }
-}
 /* === Top NavBar social icons style === */
 .top-nav-social {
   margin-right: 20px;
@@ -165,7 +100,7 @@ body {
 }
 
 /* === Logo style === */
-.top-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,7 +108,7 @@ body {
 }
 
 .logo {
-  padding: 14px 16px;
+  margin: 20px;
 }
 
 /* === Header text style === */
@@ -217,17 +152,11 @@ body {
     width: 100wv;
   }
 
-  .top-container {
+  .header__container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  }
-
-  .logo {
-    flex: 1;
-    order: 1;
-    padding-left: 20px;
   }
 
   .top-nav-social {
@@ -245,24 +174,22 @@ body {
   flex-direction: column;
   background: #11749e;
 }
-
-.about-h {
+.container h1 {
   background: url(../images/W.png) no-repeat center;
-  font-size: 3vw;
   padding: 100px;
   text-transform: uppercase;
   text-align: center;
-}
-
-.wrapper h3 {
-  text-transform: uppercase;
-  text-align: center;
-  padding: 15px;
+  font-size: 2rem;
 }
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+}
+.wrapper h3 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
 }
 
 .features3 img:hover {
@@ -276,10 +203,8 @@ body {
 }
 
 .features1, .features2, .features3, .features4 {
-  flex: 1;
   padding: 20px;
   text-align: center;
-  font-size: 16px;
 }
 
 /* === Media Queries - About - === */
@@ -291,7 +216,6 @@ body {
   }
 
   .about-h {
-    font-size: 8vw;
     white-space: nowrap;
   }
 }
@@ -418,6 +342,7 @@ body {
   background-color: #11749e;
   color: #ffffff;
   border: none;
+  text-transform: uppercase;
   padding: 5px;
   margin-top: 50px;
 }
@@ -507,6 +432,7 @@ body {
   color: #000000;
 }
 
+/* === Media queries - section3 - ===*/
 @media screen and (max-width: 768px) {
   .s3-container {
     display: flex;
@@ -567,13 +493,13 @@ input[type=text] {
   height: 64px;
   background-color: #11749e;
   color: #ffffff;
+  border: none;
+  text-transform: uppercase;
   display: block;
   margin: 30px auto;
-  border: none;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
-  text-transform: uppercase;
 }
 
 #s4-output-text {
@@ -607,6 +533,71 @@ footer {
     flex-direction: column;
     line-height: 2;
     text-align: center;
+  }
+}
+/* === Top NavBar style === */
+.top-navbar {
+  flex: 1;
+  padding: 14px 16px;
+  position: relative;
+}
+
+.active {
+  border-bottom: 1px solid #11749e;
+}
+
+.top-navbar a {
+  display: block;
+  white-space: nowrap;
+  color: #ffffff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.top-navbar a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.top-navbar ul {
+  list-style: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.top-navbar li {
+  display: inline-block;
+}
+
+/* Media queries topNavBar */
+@media screen and (max-width: 768px) {
+  .top-navbar {
+    flex: 1;
+    order: 2;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .active {
+    background-color: grey;
+    opacity: 0.5;
+    color: black;
+  }
+
+  .top-navbar ul li {
+    display: block;
+    white-space: nowrap;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .top-navbar a:hover {
+    background-color: #ffffff;
+    opacity: 0.5;
+    color: grey;
   }
 }
 
